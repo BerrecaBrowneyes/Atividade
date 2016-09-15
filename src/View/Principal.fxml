@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="268.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PrincipalController">
+   <children>
+      <Button fx:id="mce" layoutX="27.0" layoutY="39.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="144.0" text="Cadastrar Empresas" />
+      <Button fx:id="mle" layoutX="27.0" layoutY="168.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="144.0" text="Listar Empresas" />
+      <Button fx:id="mcp" layoutX="274.0" layoutY="39.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="144.0" text="Cadastrar Pessoas" />
+      <Button fx:id="mlp" layoutX="274.0" layoutY="168.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="144.0" text="Listar Pessoas" />
+   </children>
+</AnchorPane>

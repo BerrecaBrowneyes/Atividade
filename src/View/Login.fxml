@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorp" prefHeight="318.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+    <children>
+      <Label fx:id="us" layoutX="490.0" layoutY="30.0" text="Usuario" />
+      <TextField fx:id="usuario" layoutX="490.0" layoutY="63.0" prefHeight="25.0" prefWidth="138.0" promptText="Digite seu usuario..." />
+      <PasswordField fx:id="senha" layoutX="492.0" layoutY="137.0" prefHeight="25.0" prefWidth="138.0" promptText="Digite sua senha" />
+      <Button fx:id="sairlog" layoutX="495.0" layoutY="183.0" mnemonicParsing="false" text="Sair" />
+      <Button fx:id="entrarlog" layoutX="580.0" layoutY="183.0" mnemonicParsing="false" text="Entrar" />
+      <Label fx:id="sen" layoutX="490.0" layoutY="112.0" text="Senha" />
+      <ImageView fx:id="img" fitHeight="270.0" fitWidth="453.0" layoutX="21.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Img/runas.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

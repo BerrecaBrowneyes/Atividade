@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="313.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CadastrarEmpresasController">
+   <children>
+      <TextField fx:id="nomemp" layoutX="14.0" layoutY="21.0" prefHeight="25.0" prefWidth="541.0" promptText="Digite o nome da empresa" />
+      <TextField fx:id="cnpjemp" layoutX="14.0" layoutY="59.0" prefHeight="25.0" prefWidth="259.0" promptText="Digite o CNPJ da empresa" />
+      <TextField fx:id="cpfemp" layoutX="296.0" layoutY="59.0" prefHeight="25.0" prefWidth="259.0" promptText="Digite seu CPF" />
+      <TextField fx:id="endemp" layoutX="14.0" layoutY="107.0" prefHeight="25.0" prefWidth="320.0" promptText="Digite o endereço " />
+      <TextField fx:id="numemp" layoutX="341.0" layoutY="107.0" prefHeight="25.0" prefWidth="207.0" promptText="N°" />
+      <TextField fx:id="cidemp" layoutX="14.0" layoutY="146.0" prefHeight="25.0" prefWidth="259.0" promptText="Cidade" />
+      <TextField fx:id="estemp" layoutX="296.0" layoutY="146.0" prefHeight="25.0" prefWidth="259.0" promptText="Estado" />
+      <Button fx:id="cancelaremp" layoutX="75.0" layoutY="230.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="138.0" text="Cancelar" />
+      <Button fx:id="cadastroemp" layoutX="356.0" layoutY="230.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="138.0" text="Cadastrar" />
+   </children>
+</AnchorPane>
