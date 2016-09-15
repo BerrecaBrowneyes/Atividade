@@ -25,9 +25,7 @@ import javafx.scene.input.MouseEvent;
  * @author Rebeca Cecilio Bernardi
  */
 public class CadastrarEmpresasController implements Initializable {
-    // babaca
-    // coisa chata de aprender
-
+  
     @FXML private Button cadastroemp;
     @FXML private Button cancelaremp;
     @FXML private TextField nomemp;
@@ -37,7 +35,7 @@ public class CadastrarEmpresasController implements Initializable {
     @FXML private TextField numemp;
     @FXML private TextField cidemp;          
     @FXML private TextField estemp;
-         
+         //não sei o que to fazendo
     @Override
     public void initialize(URL url, ResourceBundle rb) {
       cancelaremp.setOnMouseClicked((MouseEvent e)->{
