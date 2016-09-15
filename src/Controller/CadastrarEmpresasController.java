@@ -26,6 +26,7 @@ import javafx.scene.input.MouseEvent;
  */
 public class CadastrarEmpresasController implements Initializable {
     // babaca
+    // coisa chata de aprender
 
     @FXML private Button cadastroemp;
     @FXML private Button cancelaremp;
